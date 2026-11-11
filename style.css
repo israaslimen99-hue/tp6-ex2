@@ -1,0 +1,70 @@
+.entete{
+    background-color:  #F8FE77;
+    border: 2px solid #FBDA5F;
+    border-radius: 5px;
+    
+    justify-content: space-between;
+    display: flex;
+   
+    
+    
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.nav-flex{
+    background-color: #FBDA5F;
+ 
+    width: 30%;
+   display: flex;
+    justify-content: space-between;
+    height: 25px;
+    align-self: flex-end;
+    justify-content: space-around;
+
+}
+.active{
+   
+    font-weight: bold;
+}
+.title{
+    align-items: center;
+    font-weight: bold;
+}
+
+
+body{
+
+    height: 80%;
+    
+}
+section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ justify-content: space-around;
+ background-color: #E9F13D;
+ border-radius: 9px;
+ gap: 5px;
+ 
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    
+}
+footer{
+    background-color: #F8FE77;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+   
+
+}
+.name{
+    display: flex;
+align-self: flex-end;
+}
